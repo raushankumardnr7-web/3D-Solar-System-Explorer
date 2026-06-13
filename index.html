@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>3D Solar System Explorer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>🌌 3D Solar System Explorer</h1>
+
+<div class="space">
+
+    <div class="sun" onclick="showInfo('sun')">
+        ☀️
+    </div>
+
+
+    <div class="orbit orbit1">
+        <div class="planet mercury" onclick="showInfo('mercury')"></div>
+    </div>
+
+
+    <div class="orbit orbit2">
+        <div class="planet venus" onclick="showInfo('venus')"></div>
+    </div>
+
+
+    <div class="orbit orbit3">
+        <div class="planet earth" onclick="showInfo('earth')"></div>
+    </div>
+
+
+    <div class="orbit orbit4">
+        <div class="planet mars" onclick="showInfo('mars')"></div>
+    </div>
+
+</div>
+
+
+<div class="card">
+
+    <h2 id="title">
+        Click any planet
+    </h2>
+
+    <p id="description">
+        Explore the mysteries of our solar system.
+    </p>
+
+</div>
+
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
